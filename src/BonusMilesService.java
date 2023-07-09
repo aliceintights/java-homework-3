@@ -1,6 +1,6 @@
 public class BonusMilesService {
 
-    int price = 4357;
+    int price = 10_000;
     int miles = 1;
     int bonus = 20;
     int endbonus = (price / bonus);
