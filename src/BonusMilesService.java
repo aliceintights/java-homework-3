@@ -1,14 +1,12 @@
 public class BonusMilesService {
 
-    int price = 10_000;
-    int miles = 1;
-    int bonus = 20;
-    int endbonus = (price / bonus);
     public int calculate(int price) {
         int result;
+        int miles = 1;
+        int bonus = 20;
         if (miles < bonus) {
-            result = endbonus;
-        } else  {
+            result = price / bonus;
+        } else {
             result = 0;
         }
         return result;
